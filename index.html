@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haodian Zhang - Academic Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Haodian Zhang</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#news" class="nav-link">Latest News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home 部分 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Welcome to My Academic Homepage</h1>
+                <h2 class="hero-subtitle">Master's Student in Artificial Intelligence</h2>
+                <p class="hero-description">
+                    I am a master's student at the Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#research" class="btn btn-secondary">View Research</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="image/self.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About 部分 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I am a passionate Master's student in Artificial Intelligence with a strong 
+                        interest in large language models, deep learning, and retrieval systems. 
+                        My research focuses on advancing the frontiers of AI through innovative 
+                        approaches and practical applications.
+                    </p>
+                    
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <div class="education-degree">HIAS, University of Chinese Academy of Sciences</div>
+                            <div class="education-school">Artificial Intelligence</div>
+                            <div class="education-year">2024-Present</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-degree">HeNan University</div>
+                            <div class="education-school">Network Engineering</div>
+                            <div class="education-year">2020-2024</div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Large Language Models</span>
+                            <span class="skill-tag">Retrieval Systems</span>
+                            <span class="skill-tag">Natural Language Processing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Research Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technical Skills</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News 部分 -->
+    <section id="news" class="section">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+            
+            <!-- 横幅公告 -->
+            <div class="news-banner">
+                <div class="banner-item highlight">
+                    <div class="banner-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="banner-content">
+                        <h3>🎉 Find an internship!</h3>
+                        <p>I will be interning at Changtang Network for three months as an algorithm engineer intern, mainly engaged in agent building work</p>
+                        <span class="banner-date">August 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 新闻列表
+            <div class="news-grid">
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">Jan</span>
+                        </div>
+                        <div class="news-badge research">Research</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Advanced RAG System Development</h3>
+                        <p>Currently developing a novel retrieval-augmented generation system that combines dense and sparse retrieval methods for improved accuracy in domain-specific question answering.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">RAG</span>
+                            <span class="news-tag">LLM</span>
+                            <span class="news-tag">Information Retrieval</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">08</span>
+                            <span class="month">Jan</span>
+                        </div>
+                        <div class="news-badge academic">Academic</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Presented at AI Workshop</h3>
+                        <p>Successfully presented my research on "Efficient Fine-tuning Strategies for Large Language Models" at the university's AI research workshop.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Presentation</span>
+                            <span class="news-tag">Fine-tuning</span>
+                            <span class="news-tag">Workshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">02</span>
+                            <span class="month">Jan</span>
+                        </div>
+                        <div class="news-badge achievement">Achievement</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Scholarship Award Received</h3>
+                        <p>Honored to receive the Outstanding Graduate Student Scholarship for academic excellence and research contributions in AI.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Scholarship</span>
+                            <span class="news-tag">Award</span>
+                            <span class="news-tag">Excellence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">28</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="news-badge project">Project</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Open Source Project Launch</h3>
+                        <p>Launched a new open-source project for efficient neural architecture search, now available on GitHub with comprehensive documentation.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Open Source</span>
+                            <span class="news-tag">GitHub</span>
+                            <span class="news-tag">NAS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">20</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="news-badge collaboration">Collaboration</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Industry Partnership Established</h3>
+                        <p>Excited to announce a new research collaboration with leading tech company on developing next-generation language models for Chinese applications.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Partnership</span>
+                            <span class="news-tag">Industry</span>
+                            <span class="news-tag">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="news-badge academic">Academic</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Course Completion: Advanced Deep Learning</h3>
+                        <p>Successfully completed the Advanced Deep Learning course with distinction, focusing on transformer architectures and attention mechanisms.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Course</span>
+                            <span class="news-tag">Deep Learning</span>
+                            <span class="news-tag">Transformers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Research 部分 -->
+    <section id="research" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+            <div class="research-areas">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <p>Exploring advanced neural network architectures and optimization techniques for various AI applications, focusing on improving model efficiency and performance.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Large Language Models</h3>
+                    <p>Research on transformer architectures, pre-training strategies, fine-tuning techniques, and applications of large-scale language models in real-world scenarios.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Retrieval Systems</h3>
+                    <p>Developing efficient information retrieval systems, including dense retrieval, retrieval-augmented generation (RAG), and hybrid search methodologies.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Natural Language Processing</h3>
+                    <p>Working on text understanding, language generation, dialogue systems, and multilingual NLP applications with state-of-the-art techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects 部分 -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/667EEA/ffffff?text=AI+Chat+Bot" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Intelligent Dialogue System</h3>
+                        <p>An AI-powered customer service system based on large language models, supporting multi-turn conversations and sentiment analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/F093FB/ffffff?text=Computer+Vision" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Retrieval-Augmented System</h3>
+                        <p>Advanced retrieval system combining dense and sparse retrieval methods for enhanced information access and knowledge discovery.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                            <span class="tech-tag">FAISS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/4ADE80/ffffff?text=Data+Analytics" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Deep Learning Framework</h3>
+                        <p>Custom deep learning framework optimized for research in large language models and efficient neural network training.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">CUDA</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> zhanghaodian24@mails.ucas.edu.cn</p>
+                    <p><i class="fas fa-phone"></i> 13337369645</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Hangzhou, Zhejiang, China</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/zhanghaodian" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Haodian Zhang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
